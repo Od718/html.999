@@ -1,0 +1,61 @@
+<html>
+</head>
+     <style>
+        body{
+            background-color: brown;
+        }
+          div{
+            text-align: center;
+            padding-top: 150px;
+            color: antiquewhite;
+          }
+          input{
+              margin-top: 13;
+              border-radius:6px ;
+              height: 20px;
+        
+          }
+          selact{
+             margin-top: 10px;
+          }
+          textarea{
+             margin-top: 20px;
+          }
+    </style>
+        </head>
+        <div>
+            <h1>Personal Information Form</h1>
+        <body>
+        <form>
+        Name :<input type="text" id="name"/>
+        <br/>
+        password:<input type="password"id="name"/>
+        <br/>
+        Gender:Male<input type="radio"name='Gender'/>female <input type="radio"name="Gender"/>
+        <br/>
+        Hobbies : football <input type="checkbox" name="Hobbies" value="football"/>
+                  watching tv <input type="checkbox" name="Hobbies" value="football"/>
+                  volly ball <input type="checkbox" name="Hobbies" value="football"/>
+                  reading <input type="checkbox" name="Hobbies" value="football"/>
+      <br/>        
+         your education         
+         <select name="education">
+         <option>MBA</option>
+         <option>BCS</option>
+         <option>LLB</option>
+         <option>BBA</option>
+                   
+         
+        </select>
+    </br/>
+    your comment : <textarea cols="40"  rows="10"></textarea> 
+         </form> 
+        <script>
+             function submit (e){
+                e.prevevtDefault();
+             }
+         </script>
+    </body>
+
+</body>
+</html>
